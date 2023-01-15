@@ -1,0 +1,40 @@
+.container{
+    max-width: 950;
+    margin: auto;
+}
+.header{
+    background: #134B8A;
+    height: 60px;
+    
+}
+.header_con{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.confilter{
+    justify-content: space-between;
+    margin-top: 20px;
+    display: flex;
+    margin-right: -1200px;
+    
+}
+
+
+@media screen and (max-width:480px) 
+{
+    .header{
+        display: block;
+    }
+    .header_con{
+        display: block;
+    }
+    .fromcon{
+        display: block;
+        
+    }
+
+    
+}
